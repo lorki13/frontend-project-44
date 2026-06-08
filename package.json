@@ -1,8 +1,12 @@
 {
-  "name": "frontend-project-44",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/lorki13/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/lorki13/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/lorki13/frontend-project-44/issues"
   },
